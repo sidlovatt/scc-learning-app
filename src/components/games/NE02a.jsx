@@ -51,7 +51,9 @@ export default function NE02a() {
             {parts.map((p) => (
               <div key={p.id} className="ne02a-hotspot-pos" style={{ left: `${p.x}%`, top: `${p.y}%` }}>
                 <Droppable id={p.id} className="ne02a-hotspot" activeClassName="ne02a-hotspot--over">
-                  {matched[p.id] ? <Card status="locked">{p.term}</Card> : <span className="ne02a-dot" />}
+                  <div className="ne02a-hotspot-inner">
+                    {matched[p.id] ? <Card status="locked">{p.term}</Card> : <span className="ne02a-dot" />}
+                  </div>
                 </Droppable>
               </div>
             ))}
