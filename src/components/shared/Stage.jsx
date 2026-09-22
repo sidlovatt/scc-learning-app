@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { StageScaleContext } from './StageScaleContext.js';
 import './Stage.css';
 
 const STAGE_WIDTH = 1920;
@@ -27,7 +28,7 @@ export default function Stage({ children }) {
         className="stage-inner"
         style={{ width: STAGE_WIDTH, height: STAGE_HEIGHT, transform: `scale(${scale})` }}
       >
-        {children}
+        <StageScaleContext.Provider value={scale}>{children}</StageScaleContext.Provider>
       </div>
     </div>
   );
