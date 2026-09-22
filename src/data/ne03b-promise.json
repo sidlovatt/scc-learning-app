@@ -1,0 +1,39 @@
+{
+  "segments": [
+    "I promise to serve ",
+    { "blank": 1, "accepts": ["God", "Allah", "*"] },
+    ", The ",
+    { "blank": 2, "accepts": ["King"] },
+    ", my ",
+    { "blank": 3, "accepts": ["country"] },
+    " and the ",
+    { "blank": 4, "accepts": ["Sea"] },
+    " Cadet Corps and to obey the ",
+    { "blank": 5, "accepts": ["orders of my superior officers"] },
+    ". I will be proud of my ",
+    { "blank": 6, "accepts": ["uniform"] },
+    " and be ",
+    { "blank": 7, "accepts": ["smart"] },
+    " and ",
+    { "blank": 8, "accepts": ["seamanlike"] },
+    " in wearing it, and, always do my ",
+    { "blank": 9, "accepts": ["duty"] },
+    "."
+  ],
+  "wordBank": [
+    "God",
+    "Allah",
+    "*",
+    "King",
+    "country",
+    "Sea",
+    "orders of my superior officers",
+    "uniform",
+    "smart",
+    "seamanlike",
+    "duty",
+    "My",
+    "Cadet",
+    "proud"
+  ]
+}

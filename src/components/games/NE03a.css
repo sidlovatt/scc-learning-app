@@ -1,0 +1,60 @@
+.ne03a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 40px 24px;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.ne03a h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ne03a-layout {
+  display: flex;
+  width: 100%;
+  gap: 32px;
+  flex: 1;
+}
+
+.ne03a-values {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ne03a-value-zone {
+  min-height: 70px;
+  background: #dfe9ef;
+  border: 2px dashed #003b5c;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sc-droppable--over {
+  background: #c5dcea;
+}
+
+.ne03a-value-label {
+  font-weight: 800;
+  color: #003b5c;
+}
+
+.ne03a-locked-def {
+  cursor: default;
+}
+
+.ne03a-definitions {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 12px;
+}

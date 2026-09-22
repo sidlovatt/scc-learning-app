@@ -1,0 +1,20 @@
+[
+  { "id": "new-entry-cadet", "name": "New Entry Cadet", "badge": "01-new-entry-cadet.webp" },
+  { "id": "cadet", "name": "Cadet", "badge": "02-cadet.webp" },
+  { "id": "cadet-first-class", "name": "Cadet First Class", "badge": "03-cadet-first-class.webp" },
+  { "id": "ordinary-cadet", "name": "Ordinary Cadet", "badge": "04-ordinary-cadet.webp" },
+  { "id": "able-cadet", "name": "Able Cadet", "badge": "05-able-cadet.webp" },
+  { "id": "leading-cadet", "name": "Leading Cadet", "badge": "06-leading-cadet.webp" },
+  { "id": "petty-officer-cadet", "name": "Petty Officer Cadet", "badge": "07-petty-officer-cadet.webp" },
+  { "id": "probationary-po-scc", "name": "Probationary Petty Officer (SCC)", "badge": "08-probationary-po-scc.webp" },
+  { "id": "petty-officer-scc", "name": "Petty Officer (SCC)", "badge": "09-petty-officer-scc.webp" },
+  { "id": "chief-petty-officer-scc", "name": "Chief Petty Officer (SCC)", "badge": "10-chief-petty-officer-scc.webp" },
+  { "id": "warrant-officer-2-scc-rnr", "name": "Warrant Officer 2 (SCC) RNR", "badge": "11-warrant-officer-2-scc-rnr.webp" },
+  { "id": "warrant-officer-1-scc-rnr", "name": "Warrant Officer 1 (SCC) RNR", "badge": "12-warrant-officer-1-scc-rnr.webp" },
+  { "id": "midshipman-scc-rnr", "name": "Midshipman (SCC) RNR", "badge": "13-midshipman-scc-rnr.webp" },
+  { "id": "sub-lieutenant-scc-rnr", "name": "Sub-Lieutenant (SCC) RNR", "badge": "14-sub-lieutenant-scc-rnr.webp" },
+  { "id": "lieutenant-scc-rnr", "name": "Lieutenant (SCC) RNR", "badge": "15-lieutenant-scc-rnr.webp" },
+  { "id": "lieutenant-commander-scc-rnr", "name": "Lieutenant Commander (SCC) RNR", "badge": "16-lieutenant-commander-scc-rnr.webp" },
+  { "id": "commander-scc-rnr", "name": "Commander (SCC) RNR", "badge": "17-commander-scc-rnr.webp" },
+  { "id": "chaplain-scc-rnr", "name": "Chaplain (SCC) RNR", "badge": "18-chaplain-scc-rnr.webp" }
+]

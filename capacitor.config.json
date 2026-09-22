@@ -1,0 +1,8 @@
+{
+  "appId": "org.seacadets.learning",
+  "appName": "SCC Learning App",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

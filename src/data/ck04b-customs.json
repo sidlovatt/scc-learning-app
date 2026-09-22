@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bosuns-call",
+    "scenario": "You hear a high-pitched trilling whistle used to pass an order aboard ship. Where does this custom trace back to?",
+    "options": [
+      "The Crusades, around AD 1248",
+      "The Second World War",
+      "Ancient Rome",
+      "The Napoleonic Wars"
+    ],
+    "answer": "The Crusades, around AD 1248",
+    "explanation": "The Bosun's Call dates back to the Crusades (around AD 1248) and was the badge of office of the Lord High Admiral between 1485 and 1562."
+  },
+  {
+    "id": "ships-bell",
+    "scenario": "A ship's bell is rung to mark time and other events. Which ancient peoples are credited with first using bells this way at sea?",
+    "options": [
+      "The Ancient Greeks and Phoenicians",
+      "The Vikings",
+      "The Romans",
+      "The Ancient Egyptians"
+    ],
+    "answer": "The Ancient Greeks and Phoenicians",
+    "explanation": "The tradition dates back to the Ancient Greeks and Phoenicians. A ship's bell has four uses: telling the time, sounding the alarm, tolling, and as a christening font."
+  },
+  {
+    "id": "saluting-quarterdeck",
+    "scenario": "Sailors traditionally salute when stepping onto the quarterdeck. What is this custom believed to originate from?",
+    "options": [
+      "A tradition of saluting a crucifix once mounted there",
+      "A signal to the officer of the watch",
+      "A superstition about bad weather",
+      "A Royal Navy uniform regulation"
+    ],
+    "answer": "A tradition of saluting a crucifix once mounted there",
+    "explanation": "The custom is believed to originate from Catholic ships that mounted a crucifix on the quarterdeck, which sailors would salute in passing."
+  },
+  {
+    "id": "dressing-ship",
+    "scenario": "On special occasions, a ship is decorated with flags from bow to stern. What is this custom called?",
+    "options": [
+      "Dressing Ship",
+      "Flying Colours",
+      "Rigging Ship",
+      "Signal Parade"
+    ],
+    "answer": "Dressing Ship",
+    "explanation": "Dressing Ship is the custom of displaying flags from stem to stern for special occasions."
+  },
+  {
+    "id": "crossing-the-line",
+    "scenario": "Sailors crossing the equator for the first time take part in an initiation ceremony. What is this custom called, and roughly how old is it?",
+    "options": [
+      "Crossing the Line Ceremony, around 400 years old",
+      "Neptune's Trial, around 100 years old",
+      "The Equator Rite, around 50 years old",
+      "Crossing the Line Ceremony, around 20 years old"
+    ],
+    "answer": "Crossing the Line Ceremony, around 400 years old",
+    "explanation": "The Crossing the Line Ceremony is around 400 years old and marks a sailor's first crossing of the equator."
+  }
+]

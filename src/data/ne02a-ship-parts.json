@@ -1,0 +1,10 @@
+[
+  { "id": "bow", "term": "Bow", "x": 50, "y": 24 },
+  { "id": "stem", "term": "Stem", "x": 50, "y": 8 },
+  { "id": "starboard", "term": "Starboard", "x": 76, "y": 52 },
+  { "id": "beam", "term": "Beam", "x": 76, "y": 70 },
+  { "id": "amidships", "term": "Amidships", "x": 50, "y": 50 },
+  { "id": "port", "term": "Port", "x": 24, "y": 52 },
+  { "id": "quarter", "term": "Quarter", "x": 28, "y": 82 },
+  { "id": "stern", "term": "Stern", "x": 50, "y": 94 }
+]

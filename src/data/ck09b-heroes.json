@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mckenzie",
+    "scenario": "During the Royal Navy's raid on Zeebrugge in 1918, this 19-year-old Able Seaman was severely wounded manning his machine gun on the Mole, and was chosen by his own shipmates to receive the highest award for gallantry. Who was he?",
+    "options": ["Albert McKenzie", "John Cornwell", "Matthew Croucher", "William Maillard"],
+    "answer": "Albert McKenzie",
+    "explanation": "Able Seaman Albert McKenzie was awarded the Victoria Cross for his actions at Zeebrugge in April 1918. He was the first London sailor to receive the VC, chosen by his own shipmates from HMS Vindictive, Iris and Daffodil."
+  },
+  {
+    "id": "cornwell",
+    "scenario": "At the Battle of Jutland in 1916, this 16-year-old Boy Seaman stayed at his post awaiting orders despite being mortally wounded, becoming the third-youngest ever recipient of the Victoria Cross. Who was he?",
+    "options": ["John Cornwell", "Albert McKenzie", "Matthew Croucher", "William Maillard"],
+    "answer": "John Cornwell",
+    "explanation": "Boy Seaman John 'Jack' Cornwell served on HMS Chester at Jutland. The Sea Cadets' Cornwell Medal is named after him, awarded annually to the top-scoring Petty Officer Cadet course graduate."
+  },
+  {
+    "id": "croucher",
+    "scenario": "In Afghanistan in 2008, this Royal Marine threw himself onto a live grenade, using his backpack to shield three fellow Marines, and survived with only a nosebleed. Which award did he receive?",
+    "options": ["The George Cross", "The Victoria Cross", "The Military Medal", "The Conspicuous Gallantry Cross"],
+    "answer": "The George Cross",
+    "explanation": "L/Cpl Matthew Croucher was awarded the George Cross, the highest award for bravery not in the face of the enemy, second only to the Victoria Cross itself."
+  },
+  {
+    "id": "maillard",
+    "scenario": "During the 1898 Occupation of Crete, this Royal Navy medical officer ran back through gunfire to rescue a wounded seaman, becoming the first and only naval medical officer ever awarded the Victoria Cross. Who was he?",
+    "options": ["William Job Maillard", "Albert McKenzie", "John Cornwell", "Matthew Croucher"],
+    "answer": "William Job Maillard",
+    "explanation": "Surgeon William Job Maillard was awarded the VC by Queen Victoria in 1898 for rescuing a wounded seaman under fire at Candia, Crete - the only naval medical officer ever to receive the award."
+  }
+]

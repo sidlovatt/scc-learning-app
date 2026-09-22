@@ -1,0 +1,173 @@
+.ck05 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.ck05-team-panel {
+  width: 280px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #dfe9ef;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+
+.ck05-team-panel--active {
+  background: #003b5c;
+}
+
+.ck05-team-label {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #003b5c;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.ck05-team-panel--active .ck05-team-label {
+  color: #ffd200;
+}
+
+.ck05-team-score {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #003b5c;
+  line-height: 1;
+}
+
+.ck05-team-panel--active .ck05-team-score {
+  color: #fff;
+}
+
+.ck05-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 90px 24px 24px;
+  overflow: hidden;
+}
+
+.ck05-main h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck05-prompt {
+  color: #003b5c;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.ck05-poolcount {
+  color: #6b7d87;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ck05-board {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ck05-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  width: 340px;
+  border: 3px solid transparent;
+}
+
+.ck05-card--hidden {
+  display: flex;
+  flex-direction: column;
+}
+
+.ck05-card-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.ck05-card-name {
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: #003b5c;
+  margin-bottom: 10px;
+}
+
+.ck05-stats {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ck05-stats li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #003b5c;
+  padding: 3px 0;
+}
+
+.ck05-stat--active {
+  background: #fff3c4;
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-weight: 800;
+}
+
+.ck05-stat-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ck05-stat-button {
+  min-height: 56px;
+  border-radius: 10px;
+  border: 2px solid #003b5c;
+  background: #eef2f5;
+  color: #003b5c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ck05-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #003b5c;
+  font-weight: 700;
+  text-align: center;
+  max-width: 700px;
+}
+
+.ck05-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  color: #003b5c;
+  font-size: 1.4rem;
+}

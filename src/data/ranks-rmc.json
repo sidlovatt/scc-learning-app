@@ -1,0 +1,17 @@
+[
+  { "id": "rmc-recruit", "name": "RMC Recruit", "badge": "01-recruit.webp" },
+  { "id": "royal-marines-cadet", "name": "Royal Marines Cadet", "badge": "02-royal-marines-cadet.webp" },
+  { "id": "rmc-lance-corporal", "name": "RMC Lance Corporal", "badge": "03-lance-corporal.webp" },
+  { "id": "rmc-corporal", "name": "RMC Corporal", "badge": "04-corporal.webp" },
+  { "id": "rmc-sergeant", "name": "RMC Sergeant", "badge": "05-sergeant.webp" },
+  { "id": "probational-sergeant-scc", "name": "Probational Sergeant (SCC)", "badge": "06-probational-sergeant-scc.webp" },
+  { "id": "sergeant-scc", "name": "Sergeant (SCC)", "badge": "07-sergeant-scc.webp" },
+  { "id": "colour-sergeant-scc", "name": "Colour Sergeant (SCC)", "badge": "08-colour-sergeant-scc.webp" },
+  { "id": "warrant-officer-2-scc-rmr", "name": "Warrant Officer 2 (SCC) RMR", "badge": "09-warrant-officer-2-scc-rmr.webp" },
+  { "id": "warrant-officer-1-scc-rmr", "name": "Warrant Officer 1 (SCC) RMR", "badge": "10-warrant-officer-1-scc-rmr.webp" },
+  { "id": "second-lieutenant-scc-rmr", "name": "Second Lieutenant (SCC) RMR", "badge": "11-second-lieutenant-scc-rmr.webp" },
+  { "id": "lieutenant-scc-rmr", "name": "Lieutenant (SCC) RMR", "badge": "12-lieutenant-scc-rmr.webp" },
+  { "id": "captain-scc-rmr", "name": "Captain (SCC) RMR", "badge": "13-captain-scc-rmr.webp" },
+  { "id": "major-scc-rmr", "name": "Major (SCC) RMR", "badge": "14-major-scc-rmr.webp" },
+  { "id": "lieutenant-colonel-scc-rmr", "name": "Lieutenant Colonel (SCC) RMR", "badge": "15-lieutenant-colonel-scc-rmr.webp" }
+]

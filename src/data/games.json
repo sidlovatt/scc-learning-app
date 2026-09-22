@@ -1,0 +1,25 @@
+{
+  "NEW ENTRY CADET": [
+    { "code": "NE03a", "name": "Values Matching", "icon": "⚖️" },
+    { "code": "NE03b", "name": "Sea Cadet Promise", "icon": "📜" },
+    { "code": "NE02a", "name": "Parts of a Ship", "icon": "⛵" },
+    { "code": "NE02b", "name": "Sea Cadet Terms Quiz", "icon": "📱" },
+    { "code": "NE04a", "name": "Ranks & Rates – Sea Cadets", "icon": "🎖️" },
+    { "code": "NE04b", "name": "Ranks & Rates – Royal Marines Cadets", "icon": "🎖️" }
+  ],
+  "CADET": [
+    { "code": "CWB01", "name": "Stress Bucket Challenge", "icon": "🪣" },
+    { "code": "CK02", "name": "Rank Order Challenge", "icon": "📊" },
+    { "code": "CK03", "name": "Wheel of Duties", "icon": "🎯" },
+    { "code": "CK04", "name": "Naval Terms Matching", "icon": "📖" },
+    { "code": "CK04b", "name": "Royal Naval Customs Quiz", "icon": "🔔" },
+    { "code": "CK04c", "name": "Blockbuster", "icon": "🔷" },
+    { "code": "CK05", "name": "Vessel Top Trumps", "icon": "🚢" },
+    { "code": "CK06", "name": "Hangman", "icon": "✏️" },
+    { "code": "ES01", "name": "Countryside Code Memory", "icon": "🌳" }
+  ],
+  "CADET FIRST CLASS": [
+    { "code": "CK09A", "name": "Royal Navy History", "icon": "⚓" },
+    { "code": "CK09B", "name": "Royal Navy History Timeline", "icon": "📜" }
+  ]
+}

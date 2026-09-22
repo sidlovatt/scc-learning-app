@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Sea Cadet Terms Quiz</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+      }
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+        background: #003b5c;
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+      }
+      h1 {
+        font-size: 1.4rem;
+        text-align: center;
+      }
+      input {
+        width: 100%;
+        max-width: 320px;
+        min-height: 56px;
+        font-size: 1.1rem;
+        padding: 0 16px;
+        border-radius: 12px;
+        border: none;
+        margin-bottom: 16px;
+      }
+      button {
+        width: 100%;
+        max-width: 320px;
+        min-height: 56px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        border-radius: 12px;
+        border: none;
+        background: #ffd200;
+        color: #003b5c;
+        cursor: pointer;
+        margin-bottom: 12px;
+      }
+      button:disabled {
+        opacity: 0.5;
+      }
+      .option {
+        background: #fff;
+      }
+      .option.correct {
+        background: #2e7d32;
+        color: #fff;
+      }
+      .option.incorrect {
+        background: #c62828;
+        color: #fff;
+      }
+      .status {
+        text-align: center;
+        opacity: 0.85;
+        margin-bottom: 12px;
+      }
+      #screen {
+        width: 100%;
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sea Cadet Terms Quiz</h1>
+    <div id="screen"></div>
+
+    <script>
+      const screen = document.getElementById('screen');
+      let ws;
+      let answered = false;
+      let myName = '';
+
+      function connect() {
+        ws = new WebSocket(`ws://${window.location.host}/ws`);
+        ws.onopen = () => renderJoin();
+        ws.onclose = () => renderStatus('Disconnected. Reload to reconnect.');
+        ws.onmessage = (event) => {
+          const data = JSON.parse(event.data);
+          handleMessage(data);
+        };
+      }
+
+      function send(payload) {
+        if (ws && ws.readyState === WebSocket.OPEN) ws.send(JSON.stringify(payload));
+      }
+
+      function handleMessage(data) {
+        if (data.type === 'question') {
+          answered = false;
+          renderQuestion(data);
+        } else if (data.type === 'reveal') {
+          renderReveal(data);
+        } else if (data.type === 'leaderboard' || data.type === 'final') {
+          renderLeaderboard(data);
+        } else if (data.type === 'joined') {
+          renderStatus('Waiting for the quiz to start...');
+        }
+      }
+
+      function renderJoin() {
+        screen.innerHTML = '';
+        const input = document.createElement('input');
+        input.placeholder = 'Enter your name';
+        const btn = document.createElement('button');
+        btn.textContent = 'Join';
+        btn.onclick = () => {
+          if (!input.value.trim()) return;
+          myName = input.value.trim();
+          send({ type: 'join', name: myName });
+          renderStatus('Waiting for the quiz to start...');
+        };
+        screen.appendChild(input);
+        screen.appendChild(btn);
+      }
+
+      function renderStatus(text) {
+        screen.innerHTML = '';
+        const p = document.createElement('p');
+        p.className = 'status';
+        p.textContent = text;
+        screen.appendChild(p);
+      }
+
+      function renderQuestion(data) {
+        screen.innerHTML = '';
+        const p = document.createElement('p');
+        p.className = 'status';
+        p.textContent = `What does "${data.term}" mean?`;
+        screen.appendChild(p);
+        data.options.forEach((opt, idx) => {
+          const btn = document.createElement('button');
+          btn.className = 'option';
+          btn.textContent = opt;
+          btn.onclick = () => {
+            if (answered) return;
+            answered = true;
+            send({ type: 'answer', optionIndex: idx });
+            renderStatus('Answer locked in. Waiting for reveal...');
+          };
+          screen.appendChild(btn);
+        });
+      }
+
+      function renderReveal(data) {
+        renderStatus(data.correct ? 'Correct!' : `Wrong - correct answer: ${data.correctAnswer}`);
+      }
+
+      function renderLeaderboard(data) {
+        screen.innerHTML = '';
+        const h = document.createElement('p');
+        h.className = 'status';
+        h.textContent = data.type === 'final' ? 'Final Leaderboard' : 'Leaderboard';
+        screen.appendChild(h);
+        (data.standings || []).forEach((p, i) => {
+          const row = document.createElement('div');
+          row.className = 'status';
+          row.textContent = `${i + 1}. ${p.name} - ${p.score}`;
+          screen.appendChild(row);
+        });
+      }
+
+      connect();
+    </script>
+  </body>
+</html>

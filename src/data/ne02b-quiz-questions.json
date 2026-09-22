@@ -1,0 +1,12 @@
+[
+  { "id": 1, "term": "Deck", "options": ["Floor", "Wall", "Rope", "Anchor"], "answer": "Floor" },
+  { "id": 2, "term": "Nutty", "options": ["A type of knot", "Confectionary / chocolate", "A punishment", "A rank"], "answer": "Confectionary / chocolate" },
+  { "id": 3, "term": "Ensign", "options": ["A flag", "A type of boat", "A ship's bell", "A uniform button"], "answer": "A flag" },
+  { "id": 4, "term": "A Pipe", "options": ["A drinking mug", "A boatswain's instrument / signal", "A type of rope", "A ceremonial sword"], "answer": "A boatswain's instrument / signal" },
+  { "id": 5, "term": "A Boatswain's Call", "options": ["Musical instrument for passing orders", "A morning wake-up shout", "A type of flag signal", "A ship's compass"], "answer": "Musical instrument for passing orders" },
+  { "id": 6, "term": "Stand Easy", "options": ["Break time between activities", "A parade formation", "A type of knot", "An order to stop the ship"], "answer": "Break time between activities" },
+  { "id": 7, "term": "Scran", "options": ["Food", "Rubbish", "Rope", "A cleaning cloth"], "answer": "Food" },
+  { "id": 8, "term": "A Wet", "options": ["A type of rain gear", "A hot drink", "A wet sponge", "A swimming exercise"], "answer": "A hot drink" },
+  { "id": 9, "term": "Divisions", "options": ["A ceremonial parade", "Sections of a ship", "Ranks in the Navy", "Types of knots"], "answer": "A ceremonial parade" },
+  { "id": 10, "term": "Gangway", "options": ["Entrance or corridor in a unit", "A type of rope", "A ship's kitchen", "A punishment detail"], "answer": "Entrance or corridor in a unit" }
+]

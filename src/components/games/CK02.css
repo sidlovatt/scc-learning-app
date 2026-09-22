@@ -1,0 +1,91 @@
+.ck02 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 40px 24px;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.ck02 h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck02-tabs {
+  display: flex;
+  gap: 12px;
+}
+
+.ck02-challenge {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ck02-endpoints {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  color: #003b5c;
+  padding: 0 8px;
+}
+
+.ck02-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: #dfe9ef;
+  border-radius: 12px;
+  padding: 12px;
+  min-height: 90px;
+}
+
+.ck02-slot {
+  min-width: 100px;
+  min-height: 120px;
+  background: #fff;
+  border: 2px dashed #003b5c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ck02-slot .sc-card,
+.ck02-pool .sc-card {
+  flex-direction: column;
+  gap: 6px;
+  min-width: 90px;
+}
+
+.ck02-badge-img {
+  max-width: 56px;
+  max-height: 70px;
+  object-fit: contain;
+}
+
+.ck02-no-badge {
+  font-size: 0.75rem;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.ck02-slot-num {
+  color: #9aa9b2;
+  font-weight: 700;
+}
+
+.ck02-pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ck02-status {
+  text-align: center;
+  font-weight: 700;
+  color: #003b5c;
+}

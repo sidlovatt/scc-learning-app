@@ -1,0 +1,39 @@
+{
+  "Royal Navy": [
+    { "name": "Able Rate", "badge": null },
+    { "name": "Leading Rate", "badge": "leading-rate.webp" },
+    { "name": "Petty Officer", "badge": "petty-officer.webp" },
+    { "name": "Chief Petty Officer", "badge": "chief-petty-officer.webp" },
+    { "name": "Warrant Officer", "badge": "warrant-officer.webp" },
+    { "name": "Midshipman", "badge": "midshipman.webp" },
+    { "name": "Sub-Lieutenant", "badge": "sub-lieutenant.webp" },
+    { "name": "Lieutenant", "badge": "lieutenant.webp" },
+    { "name": "Lieutenant Commander", "badge": "lieutenant-commander.webp" },
+    { "name": "Commander", "badge": "commander.webp" },
+    { "name": "Captain", "badge": "captain.webp" },
+    { "name": "Commodore", "badge": "commodore.webp" },
+    { "name": "Rear Admiral", "badge": "rear-admiral.webp" },
+    { "name": "Vice Admiral", "badge": "vice-admiral.webp" },
+    { "name": "Admiral", "badge": "admiral.webp" },
+    { "name": "Admiral of the Fleet", "badge": "admiral-of-the-fleet.webp" }
+  ],
+  "Royal Marines": [
+    { "name": "Marine", "badge": null },
+    { "name": "Lance Corporal", "badge": "lance-corporal.webp" },
+    { "name": "Corporal", "badge": "corporal.webp" },
+    { "name": "Sergeant", "badge": "sergeant.webp" },
+    { "name": "Colour Sergeant", "badge": "colour-sergeant.webp" },
+    { "name": "Warrant Officer Class 2", "badge": "warrant-officer-2.webp" },
+    { "name": "Warrant Officer Class 1", "badge": "warrant-officer-1.webp" },
+    { "name": "Second Lieutenant", "badge": "second-lieutenant.webp" },
+    { "name": "Lieutenant", "badge": "lieutenant.webp" },
+    { "name": "Captain", "badge": "captain.webp" },
+    { "name": "Major", "badge": "major.webp" },
+    { "name": "Lieutenant Colonel", "badge": "lieutenant-colonel.webp" },
+    { "name": "Colonel", "badge": "colonel.webp" },
+    { "name": "Brigadier", "badge": "brigadier.webp" },
+    { "name": "Major General", "badge": "major-general.webp" },
+    { "name": "Lieutenant General", "badge": "lieutenant-general.webp" },
+    { "name": "General", "badge": "general.webp" }
+  ]
+}

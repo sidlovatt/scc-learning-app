@@ -1,0 +1,23 @@
+[
+  { "id": 1, "term": "Hatch", "definition": "A covered opening in a deck" },
+  { "id": 2, "term": "Deck", "definition": "The floor of a ship" },
+  { "id": 3, "term": "Bulkhead", "definition": "An upright wall dividing compartments" },
+  { "id": 4, "term": "Scuttle", "definition": "A small round opening or window in a ship's side or deck" },
+  { "id": 5, "term": "Porthole", "definition": "A round window in the side of a ship" },
+  { "id": 6, "term": "Deadlight", "definition": "A metal cover fitted to protect a porthole" },
+  { "id": 7, "term": "Deckhead", "definition": "The ceiling of a compartment" },
+  { "id": 8, "term": "Bridge", "definition": "The control centre from which a ship is navigated" },
+  { "id": 9, "term": "Ladder", "definition": "The stairs aboard a ship" },
+  { "id": 10, "term": "Gangways", "definition": "Passageways used for boarding or moving along the ship" },
+  { "id": 11, "term": "Companion Ways", "definition": "Staircases connecting one deck to another" },
+  { "id": 12, "term": "Galley", "definition": "The ship's kitchen" },
+  { "id": 13, "term": "Heads", "definition": "The toilets aboard a ship" },
+  { "id": 14, "term": "Gash", "definition": "Rubbish or waste" },
+  { "id": 15, "term": "Dhoby", "definition": "Laundry" },
+  { "id": 16, "term": "Stand Easy", "definition": "A short break between activities" },
+  { "id": 17, "term": "Nutty Bar", "definition": "A chocolate bar" },
+  { "id": 18, "term": "Libertymen", "definition": "Sailors granted shore leave" },
+  { "id": 19, "term": "Defaulters", "definition": "Those charged with breaking rules, on report" },
+  { "id": 20, "term": "To Ship", "definition": "To fit or put something into place" },
+  { "id": 21, "term": "To Unship", "definition": "To remove or take something out of place" }
+]

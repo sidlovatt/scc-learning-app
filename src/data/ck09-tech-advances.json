@@ -1,0 +1,47 @@
+[
+  {
+    "era": "16th-18th Century (Age of Sail)",
+    "color": "#00838f",
+    "items": [
+      { "id": "chronometer", "advancement": "Marine Chronometer", "description": "Allowed sailors to calculate longitude accurately.", "impact": "Modern GPS builds on the principles of precise location positioning." },
+      { "id": "copper", "advancement": "Copper Sheathing", "description": "Protected wooden hulls from marine organisms, improving speed and durability.", "impact": "Anti-corrosion technology is used in modern shipping, offshore platforms and even cars." }
+    ]
+  },
+  {
+    "era": "19th Century",
+    "color": "#2e7d32",
+    "items": [
+      { "id": "steam", "advancement": "Steam Propulsion", "description": "The transition from sail to steam engines revolutionised travel and trade.", "impact": "Led to the development of the combustion engine." },
+      { "id": "ironclad", "advancement": "Ironclad Ships", "description": "First use of iron hulls for warships, increasing strength and survivability.", "impact": "Led to the development of steel construction, which is standard in architecture and transportation." },
+      { "id": "hydrographic", "advancement": "Hydrographic Surveying", "description": "Detailed mapping of oceans for safe navigation.", "impact": "Modern nautical charts and satellite mapping rely on these foundations, supporting global trade and internet cables." }
+    ]
+  },
+  {
+    "era": "Early 20th Century",
+    "color": "#ef6c00",
+    "items": [
+      { "id": "submarines", "advancement": "Submarines", "description": "Enabled underwater warfare and stealth operations.", "impact": "Influenced deep-sea exploration and undersea cable maintenance." },
+      { "id": "dreadnought", "advancement": "HMS Dreadnought", "description": "Introduced turbine engines and heavy guns, setting a new standard for battleships.", "impact": "Turbine technology is used in aircraft engines and power generation." }
+    ]
+  },
+  {
+    "era": "Mid-Late 20th Century",
+    "color": "#6a1b9a",
+    "items": [
+      { "id": "radio", "advancement": "Wireless Radio Communication", "description": "Enabled fleets to coordinate over long distances.", "impact": "Led to the development of Wi-Fi, Bluetooth and mobile networks." },
+      { "id": "radarsonar", "advancement": "Radar and Sonar", "description": "Radar to detect aircraft. Sonar to locate submarines.", "impact": "Radar is used in aviation, weather forecasting and cars. Sonar is used for fishing, oceanography and medical imaging (ultrasound)." },
+      { "id": "nuclear", "advancement": "Nuclear Propulsion", "description": "Submarines could operate underwater for months without having to surface.", "impact": "Nuclear power provides electricity for millions of homes." }
+    ]
+  },
+  {
+    "era": "21st Century",
+    "color": "#1565c0",
+    "items": [
+      { "id": "ballistic", "advancement": "Ballistic Missile Submarines", "description": "Strategic deterrent capability.", "impact": "Further developed and influenced space exploration and satellite launches." },
+      { "id": "qec", "advancement": "Queen Elizabeth-class Aircraft Carriers", "description": "Integrated digital systems and automated operations.", "impact": "Systems developed are applied in factories and autonomous vehicles." },
+      { "id": "drones", "advancement": "Unmanned Systems and Drones", "description": "Used for surveillance and mine detection.", "impact": "This technology is common in delivery services, agriculture and emergency response." },
+      { "id": "cyber", "advancement": "Cyber Warfare and Digital Security", "description": "Protecting naval systems from hacking.", "impact": "Protocols developed for defence are now standard in banking, healthcare and personal devices." },
+      { "id": "green", "advancement": "Environmental Innovations", "description": "Fuel-efficient engines and waste reduction on ships.", "impact": "Green technologies influence commercial shipping and renewable energy sectors." }
+    ]
+  }
+]

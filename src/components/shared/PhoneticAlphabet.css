@@ -1,0 +1,50 @@
+.phonetic-alphabet {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 8px 6px;
+  padding: 12px;
+  background: #eef2f5;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.phonetic-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  font-size: 0.85rem;
+  color: #003b5c;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  padding: 4px 2px;
+  border-radius: 8px;
+}
+
+button.phonetic-entry {
+  cursor: pointer;
+}
+
+button.phonetic-entry:active {
+  background: #d5e3ea;
+}
+
+.phonetic-entry--used {
+  background: #c62828;
+  color: #fff;
+  opacity: 0.65;
+  text-decoration: line-through;
+}
+
+.phonetic-letter {
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.phonetic-word {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}

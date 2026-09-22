@@ -1,0 +1,52 @@
+.ck04 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 40px 24px;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.ck04 h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck04-layout {
+  display: flex;
+  width: 100%;
+  gap: 32px;
+}
+
+.ck04-terms {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+  align-content: start;
+}
+
+.ck04-term-zone {
+  min-height: 70px;
+  background: #dfe9ef;
+  border: 2px dashed #003b5c;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ck04-term-label {
+  font-weight: 800;
+  color: #003b5c;
+}
+
+.ck04-defs {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px;
+}

@@ -1,0 +1,56 @@
+.rank-match {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 40px 24px;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.rank-match h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.rank-match-layout {
+  display: flex;
+  width: 100%;
+  gap: 32px;
+  flex: 1;
+}
+
+.rank-match-badges {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  align-content: start;
+}
+
+.rank-badge-zone {
+  min-height: 130px;
+  background: #dfe9ef;
+  border: 2px dashed #003b5c;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.rank-badge-img {
+  max-width: 64px;
+  max-height: 64px;
+  object-fit: contain;
+}
+
+.rank-match-names {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 12px;
+}
+

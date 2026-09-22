@@ -1,0 +1,164 @@
+.ck09ta {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 30px 20px;
+  gap: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ck09ta-menu-back {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.ck09ta h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck09ta-stage {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.ck09ta-hint {
+  color: #6b7d87;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.ck09ta-progress {
+  color: #6b7d87;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ck09ta-layout {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 1850px;
+  overflow: hidden;
+}
+
+.ck09ta-advancements {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  align-content: start;
+  overflow: hidden;
+}
+
+.ck09ta-advancement-zone {
+  min-height: 60px;
+  background: #dfe9ef;
+  border: 2px dashed #003b5c;
+  border-radius: 8px;
+  padding: 4px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 0.75rem;
+}
+
+.ck09ta-advancement-label {
+  font-weight: 800;
+  color: #003b5c;
+}
+
+.ck09ta-impacts {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  gap: 6px;
+  overflow: hidden;
+}
+
+.ck09ta-impacts .sc-card,
+.ck09ta-advancement-zone .sc-card {
+  font-size: 0.72rem;
+  padding: 6px 8px;
+  min-width: 140px;
+}
+
+.ck09ta-eras {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 100%;
+  max-width: 1850px;
+  flex: 1;
+  min-height: 0;
+}
+
+.ck09ta-era-bin {
+  background: #eef2f5;
+  border: 2px dashed #9aa9b2;
+  border-radius: 10px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: hidden;
+}
+
+.ck09ta-era-bin--over {
+  background: #d5e3ea;
+}
+
+.ck09ta-era-label {
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.7rem;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 4px;
+}
+
+.ck09ta-era-items {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow-y: auto;
+}
+
+.ck09ta-era-items .sc-card {
+  font-size: 0.68rem;
+  padding: 4px 6px;
+}
+
+.ck09ta-pool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 1850px;
+}
+
+.ck09ta-pool .sc-card {
+  font-size: 0.78rem;
+  padding: 6px 10px;
+}
+
+.ck09ta-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #003b5c;
+  font-weight: 700;
+}

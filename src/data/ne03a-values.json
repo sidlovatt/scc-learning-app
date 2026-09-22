@@ -1,0 +1,8 @@
+[
+  { "id": "respect", "value": "Respect", "definition": "Treating others, property and the environment with consideration and courtesy." },
+  { "id": "loyalty", "value": "Loyalty", "definition": "Being faithful and supportive to the Corps, your unit and your fellow cadets." },
+  { "id": "self-discipline", "value": "Self-Discipline", "definition": "Controlling your own behaviour and following orders without being told twice." },
+  { "id": "commitment", "value": "Commitment", "definition": "Dedicating your time and effort to training and turning up when you're needed." },
+  { "id": "honesty-integrity", "value": "Honesty & Integrity", "definition": "Telling the truth and doing the right thing, even when no one is watching." },
+  { "id": "courage", "value": "Courage", "definition": "Facing difficult or frightening situations with determination." }
+]

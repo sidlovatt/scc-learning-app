@@ -1,0 +1,52 @@
+.sc-card {
+  min-height: 60px;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: #fff;
+  color: #003b5c;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  cursor: grab;
+}
+
+.sc-card--correct {
+  background: #2e7d32;
+  color: #fff;
+  cursor: default;
+}
+
+.sc-card--incorrect {
+  animation: sc-shake 0.4s;
+  background: #ffcdd2;
+}
+
+.sc-card--locked {
+  background: #2e7d32;
+  color: #fff;
+  cursor: default;
+  opacity: 0.9;
+}
+
+@keyframes sc-shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-8px);
+  }
+  40% {
+    transform: translateX(8px);
+  }
+  60% {
+    transform: translateX(-6px);
+  }
+  80% {
+    transform: translateX(6px);
+  }
+}

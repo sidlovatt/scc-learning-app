@@ -1,0 +1,115 @@
+.ck03 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 30px 24px;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.ck03 h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck03-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ck03-tab {
+  --tab-color: #9e9e9e;
+  min-height: 60px;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  border: 2px solid var(--tab-color);
+  background: #fff;
+  color: var(--tab-color);
+  cursor: pointer;
+}
+
+.ck03-tab--active {
+  background: var(--tab-color);
+  color: #fff;
+}
+
+.ck03-tab--done {
+  opacity: 0.7;
+}
+
+.ck03-stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ck03-wheel {
+  position: relative;
+  width: 560px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 4px solid #003b5c;
+  background: #eef2f5;
+}
+
+.ck03-wheel--over {
+  background: #d5e3ea;
+}
+
+.ck03-wheel-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 26%;
+  height: 26%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.ck03-slot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+
+.ck03-slot-empty {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid #9aa9b2;
+}
+
+.ck03-slot-filled {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px 10px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.ck03-pool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 1100px;
+}

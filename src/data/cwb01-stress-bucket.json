@@ -1,0 +1,17 @@
+{
+  "stressors": [
+    { "id": "exams", "label": "Exams", "amount": 25 },
+    { "id": "family", "label": "Family Issues", "amount": 20 },
+    { "id": "friendships", "label": "Friendship Problems", "amount": 15 },
+    { "id": "sleep-loss", "label": "Sleep Loss", "amount": 20 },
+    { "id": "social-media", "label": "Social Media Pressure", "amount": 15 },
+    { "id": "time-management", "label": "Time Management", "amount": 15 }
+  ],
+  "copingStrategies": [
+    { "id": "talking", "label": "Talking to Someone", "amount": 20 },
+    { "id": "exercise", "label": "Exercise", "amount": 15 },
+    { "id": "hobbies", "label": "Hobbies", "amount": 10 },
+    { "id": "breathing", "label": "Breathing Techniques", "amount": 10 },
+    { "id": "sleep", "label": "Getting Enough Sleep", "amount": 15 }
+  ]
+}

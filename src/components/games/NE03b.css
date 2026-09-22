@@ -1,0 +1,44 @@
+.ne03b {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 60px 24px;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.ne03b h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ne03b-text {
+  font-size: 1.4rem;
+  line-height: 2.6;
+  color: #003b5c;
+  text-align: center;
+  max-width: 900px;
+}
+
+.ne03b-blank {
+  display: inline-flex;
+  min-width: 90px;
+  min-height: 44px;
+  border-bottom: 3px solid #003b5c;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+.ne03b-filled {
+  font-weight: 800;
+  color: #2e7d32;
+  margin: 0 4px;
+}
+
+.ne03b-bank {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}

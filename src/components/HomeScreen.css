@@ -1,0 +1,89 @@
+.home-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: #003b5c;
+  color: #fff;
+  overflow: hidden;
+}
+
+.home-header {
+  padding: 24px 40px 8px;
+  text-align: center;
+}
+
+.home-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 0.02em;
+}
+
+.rank-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px 40px;
+}
+
+.rank-tab {
+  min-height: 60px;
+  padding: 0 32px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border: 2px solid #ffd200;
+  border-radius: 12px;
+  background: transparent;
+  color: #ffd200;
+  cursor: pointer;
+}
+
+.rank-tab.active {
+  background: #ffd200;
+  color: #003b5c;
+}
+
+.game-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+  padding: 16px 40px 40px;
+  overflow: hidden;
+}
+
+.game-card {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #003b5c;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.game-card:active {
+  transform: scale(0.97);
+}
+
+.game-icon {
+  font-size: 3rem;
+}
+
+.game-code {
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+}
+
+.game-name {
+  font-size: 1rem;
+  text-align: center;
+}

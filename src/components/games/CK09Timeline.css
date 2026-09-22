@@ -1,0 +1,88 @@
+.ck09t {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 40px 24px;
+  gap: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ck09t-menu-back {
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+
+.ck09t h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck09t-hint {
+  color: #6b7d87;
+  margin: 0;
+}
+
+.ck09t-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background: #dfe9ef;
+  border-radius: 12px;
+  padding: 16px;
+  width: 100%;
+  max-width: 1700px;
+}
+
+.ck09t-endpoint {
+  font-weight: 800;
+  color: #003b5c;
+  padding: 0 8px;
+}
+
+.ck09t-slot {
+  min-width: 150px;
+  min-height: 70px;
+  background: #fff;
+  border: 2px dashed #003b5c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+.ck09t-slot-num {
+  color: #9aa9b2;
+  font-weight: 700;
+}
+
+.ck09t-pool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 1400px;
+}
+
+.ck09t-fact {
+  max-width: 900px;
+  text-align: center;
+  color: #003b5c;
+  font-style: italic;
+}
+
+.ck09t-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #003b5c;
+  font-weight: 700;
+}

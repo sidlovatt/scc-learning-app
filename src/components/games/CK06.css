@@ -1,0 +1,211 @@
+.ck06 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 30px 24px;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.ck06 h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck06-setup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: #003b5c;
+}
+
+.ck06-stepper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ck06-count {
+  font-size: 2rem;
+  font-weight: 800;
+  min-width: 50px;
+  text-align: center;
+}
+
+.ck06-content {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.ck06-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex: 1;
+}
+
+.ck06-drawing-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.ck06-blanks-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 900px;
+}
+
+.ck06-drawing {
+  width: 200px;
+  height: 225px;
+}
+
+.ck06-blanks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ck06-blank {
+  min-width: 44px;
+  min-height: 54px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: none;
+  border-bottom: 4px solid #003b5c;
+  background: transparent;
+  color: #003b5c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ck06-blank--static {
+  cursor: default;
+}
+
+.ck06-mode-choices {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ck06-mode-card {
+  width: 320px;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 16px;
+  border: 2px solid #003b5c;
+  background: #eef2f5;
+  color: #003b5c;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ck06-mode-card:active {
+  background: #d5e3ea;
+}
+
+.ck06-mode-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.ck06-mode-desc {
+  font-size: 0.9rem;
+  color: #47606f;
+}
+
+.ck06-wrong-count {
+  color: #c62828;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ck06-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #003b5c;
+  font-weight: 700;
+}
+
+.ck06-definition {
+  font-weight: 400;
+  font-style: italic;
+  max-width: 500px;
+  text-align: center;
+  color: #47606f;
+}
+
+.ck06-wrong-tracker-label {
+  text-align: center;
+  color: #6b7d87;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.ck06-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 60;
+}
+
+.ck06-modal {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  color: #003b5c;
+}
+
+.ck06-letter-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.ck06-letter {
+  min-height: 50px;
+  border-radius: 8px;
+  border: 2px solid #003b5c;
+  background: #eef2f5;
+  color: #003b5c;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ck06-letter--clear {
+  grid-column: span 3;
+  background: #ffd200;
+}

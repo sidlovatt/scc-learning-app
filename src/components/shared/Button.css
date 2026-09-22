@@ -1,0 +1,40 @@
+.sc-button {
+  min-height: 60px;
+  min-width: 60px;
+  padding: 0 28px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.sc-button:active {
+  transform: scale(0.96);
+}
+
+.sc-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sc-button--primary {
+  background: #003b5c;
+  color: #fff;
+}
+
+.sc-button--accent {
+  background: #ffd200;
+  color: #003b5c;
+}
+
+.sc-button--danger {
+  background: #c62828;
+  color: #fff;
+}
+
+.sc-button--ghost {
+  background: transparent;
+  color: #003b5c;
+  border: 2px solid #003b5c;
+}

@@ -1,0 +1,17 @@
+node_modules
+dist
+release
+.DS_Store
+*.log
+
+# Raw lesson source material (large third-party saved webpages, not part of the app)
+TandA Sources
+
+# Android build outputs
+android/app/build
+android/build
+android/.gradle
+android/local.properties
+android/captures
+android/app/release
+android/app/debug

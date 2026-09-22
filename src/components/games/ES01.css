@@ -1,0 +1,64 @@
+.es01 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 40px 24px;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.es01 h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.es01-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.es01-card {
+  min-height: 190px;
+  border-radius: 14px;
+  border: none;
+  background: #003b5c;
+  color: transparent;
+  font-size: 1.6rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.es01-card--up {
+  background: #fff;
+  color: #003b5c;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 14px;
+}
+
+.es01-card--matched {
+  color: #fff;
+}
+
+.es01-color-0 { background: #2e7d32; }
+.es01-color-1 { background: #1565c0; }
+.es01-color-2 { background: #6a1b9a; }
+.es01-color-3 { background: #ef6c00; }
+.es01-color-4 { background: #00838f; }
+.es01-color-5 { background: #ad1457; }
+.es01-color-6 { background: #558b2f; }
+.es01-color-7 { background: #4527a0; }
+
+.es01-win {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: #003b5c;
+  font-size: 1.4rem;
+}

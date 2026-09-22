@@ -1,0 +1,40 @@
+{
+  "wheels": [
+    {
+      "key": "OOD",
+      "label": "Officer of the Day",
+      "color": "#9e9e9e",
+      "items": ["Colours & Evening Colours", "Ship's Log", "Receiving VIPs", "Security Rounds", "Safety", "Ship's Routine"]
+    },
+    {
+      "key": "DSR",
+      "label": "Duty Senior Rate (DSR/SNCO)",
+      "color": "#c9a227",
+      "items": ["Duty Watch", "Cleaning Stations", "Colours & Evening Colours", "Stand Easy"]
+    },
+    {
+      "key": "QM",
+      "label": "Quartermaster",
+      "color": "#c62828",
+      "items": ["Gangway Security", "Deck Log", "First Appearances", "Piping Orders", "Raise the Alarm"]
+    },
+    {
+      "key": "BM",
+      "label": "Boatswain's Mate",
+      "color": "#2e7d32",
+      "items": ["Gangway Security", "Messages", "Helping Hand", "Standing In"]
+    },
+    {
+      "key": "DW",
+      "label": "Duty Watch",
+      "color": "#6a1b9a",
+      "items": ["Cleaning Stations", "Boat Duties", "Signal Party"]
+    },
+    {
+      "key": "SP",
+      "label": "Signal Party",
+      "color": "#8bc34a",
+      "items": ["Colours", "Evening Colours"]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "founding",
+    "label": "Founding of the Royal Navy",
+    "year": 1546,
+    "fact": "Henry VIII built royal dockyards at Portsmouth, Woolwich and Deptford and set up the Navy Board. By his death in 1547 the fleet had grown to more than 40 ships."
+  },
+  {
+    "id": "armada",
+    "label": "The Spanish Armada",
+    "year": 1588,
+    "fact": "The Spanish fleet was sighted in the English Channel on 29 July 1588 and was driven off using fireships at the Battle of Gravelines."
+  },
+  {
+    "id": "dutch",
+    "label": "War with the Dutch",
+    "year": 1652,
+    "fact": "The First Anglo-Dutch War began in 1652. Four wars were fought against the Dutch between 1652 and 1674, including a daring Dutch raid up the River Medway in 1667."
+  },
+  {
+    "id": "trafalgar",
+    "label": "Battle of Trafalgar",
+    "year": 1805,
+    "fact": "On 21 October 1805, Nelson's fleet of 27 ships aboard HMS Victory defeated a larger French and Spanish fleet of 33 ships."
+  },
+  {
+    "id": "jutland",
+    "label": "Battle of Jutland",
+    "year": 1916,
+    "fact": "Fought 31 May - 1 June 1916, this was the largest naval battle of the First World War. Boy Seaman Jack Cornwell became the youngest ever recipient of the Victoria Cross for his actions during the battle."
+  },
+  {
+    "id": "atlantic",
+    "label": "Battle of the Atlantic",
+    "year": 1939,
+    "fact": "The longest continuous military campaign of the Second World War, running from September 1939 until Germany's defeat in 1945, pitting Allied convoys against German U-boat wolf packs."
+  },
+  {
+    "id": "falklands",
+    "label": "The Falklands War",
+    "year": 1982,
+    "fact": "After Argentina invaded on 2 April 1982, a Royal Navy task force of over 100 ships sailed 8,000 miles to retake the islands, which surrendered on 14 June 1982."
+  }
+]

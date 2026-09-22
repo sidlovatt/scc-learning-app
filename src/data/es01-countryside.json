@@ -1,0 +1,10 @@
+[
+  { "id": 1, "principle": "Respect everyone", "example": "Leave gates as you find them" },
+  { "id": 2, "principle": "Protect the environment", "example": "Take your litter home" },
+  { "id": 3, "principle": "Enjoy the outdoors", "example": "Check your route and local conditions" },
+  { "id": 4, "principle": "Keep dogs under control", "example": "Put dog on lead near livestock" },
+  { "id": 5, "principle": "Care for nature", "example": "Do not cause damage or disturbance" },
+  { "id": 6, "principle": "Do not light fires", "example": "Only BBQ where signs permit" },
+  { "id": 7, "principle": "Bag dog poo", "example": "Bin it or take it home" },
+  { "id": 8, "principle": "Follow local signs", "example": "Know local conditions" }
+]
