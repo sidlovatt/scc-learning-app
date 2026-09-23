@@ -1,0 +1,21 @@
+[
+  { "id": "air-specialist-2", "name": "Air Specialist (Class 2)", "badge": "air-specialist-2.webp" },
+  { "id": "air-specialist-1", "name": "Air Specialist (Class 1)", "badge": "air-specialist-1.webp" },
+  { "id": "air-specialist-1-technician", "name": "Air Specialist (Class 1) Technician", "badge": "air-specialist-1-technician.webp" },
+  { "id": "corporal", "name": "Corporal", "badge": "corporal.webp" },
+  { "id": "sergeant", "name": "Sergeant", "badge": "sergeant.webp" },
+  { "id": "chief-technician", "name": "Chief Technician", "badge": "chief-technician.webp" },
+  { "id": "flight-sergeant", "name": "Flight Sergeant", "badge": "flight-sergeant.webp" },
+  { "id": "warrant-officer", "name": "Warrant Officer", "badge": "warrant-officer.webp" },
+  { "id": "pilot-officer", "name": "Pilot Officer", "badge": "pilot-officer.webp" },
+  { "id": "flying-officer", "name": "Flying Officer", "badge": "flying-officer.webp" },
+  { "id": "flight-lieutenant", "name": "Flight Lieutenant", "badge": "flight-lieutenant.webp" },
+  { "id": "squadron-leader", "name": "Squadron Leader", "badge": "squadron-leader.webp" },
+  { "id": "wing-commander", "name": "Wing Commander", "badge": "wing-commander.webp" },
+  { "id": "group-captain", "name": "Group Captain", "badge": "group-captain.webp" },
+  { "id": "air-commodore", "name": "Air Commodore", "badge": "air-commodore.webp" },
+  { "id": "air-vice-marshal", "name": "Air Vice Marshal", "badge": "air-vice-marshal.webp" },
+  { "id": "air-marshal", "name": "Air Marshal", "badge": "air-marshal.webp" },
+  { "id": "air-chief-marshal", "name": "Air Chief Marshal", "badge": "air-chief-marshal.webp" },
+  { "id": "marshal-of-the-raf", "name": "Marshal of the Royal Air Force", "badge": "marshal-of-the-raf.webp" }
+]

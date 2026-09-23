@@ -22,6 +22,8 @@
     { "code": "CK09A", "name": "Royal Navy History", "icon": "⚓" },
     { "code": "CK09B", "name": "Royal Navy History Timeline", "icon": "📜" },
     { "code": "CK10A", "name": "Times, Watches, and Bells (A)", "icon": "⏰" },
-    { "code": "CK10B", "name": "Times, Watches, and Bells (B)", "icon": "🔔" }
+    { "code": "CK10B", "name": "Times, Watches, and Bells (B)", "icon": "🔔" },
+    { "code": "CK12Army", "name": "Who's Who - British Army Ranks", "icon": "🎖️" },
+    { "code": "CK12RAF", "name": "Who's Who - RAF Ranks", "icon": "🎖️" }
   ]
 }

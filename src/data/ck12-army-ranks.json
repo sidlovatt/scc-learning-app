@@ -1,0 +1,20 @@
+[
+  { "id": "private", "name": "Private", "badge": "private.webp" },
+  { "id": "lance-corporal", "name": "Lance Corporal", "badge": "lance-corporal.webp" },
+  { "id": "corporal", "name": "Corporal", "badge": "corporal.webp" },
+  { "id": "sergeant", "name": "Sergeant", "badge": "sergeant.webp" },
+  { "id": "staff-sergeant", "name": "Staff Sergeant", "badge": "staff-sergeant.webp" },
+  { "id": "warrant-officer-2", "name": "Warrant Officer 2", "badge": "warrant-officer-2.webp" },
+  { "id": "warrant-officer-1", "name": "Warrant Officer 1", "badge": "warrant-officer-1.webp" },
+  { "id": "second-lieutenant", "name": "Second Lieutenant", "badge": "second-lieutenant.webp" },
+  { "id": "lieutenant", "name": "Lieutenant", "badge": "lieutenant.webp" },
+  { "id": "captain", "name": "Captain", "badge": "captain.webp" },
+  { "id": "major", "name": "Major", "badge": "major.webp" },
+  { "id": "lieutenant-colonel", "name": "Lieutenant Colonel", "badge": "lieutenant-colonel.webp" },
+  { "id": "colonel", "name": "Colonel", "badge": "colonel.webp" },
+  { "id": "brigadier", "name": "Brigadier", "badge": "brigadier.webp" },
+  { "id": "major-general", "name": "Major General", "badge": "major-general.webp" },
+  { "id": "lieutenant-general", "name": "Lieutenant General", "badge": "lieutenant-general.webp" },
+  { "id": "general", "name": "General", "badge": "general.webp" },
+  { "id": "field-marshal", "name": "Field Marshal", "badge": "field-marshal.webp" }
+]
