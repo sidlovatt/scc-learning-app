@@ -160,7 +160,7 @@ function PatternStage({ onComplete }) {
   return (
     <DndProvider onDragEnd={handleDragEnd}>
       <div className="ck10bm-stage">
-        <p className="ck10bm-hint">Round 3: Drag each strike pattern onto its number of bells. Tap a pattern to hear it.</p>
+        <p className="ck10bm-hint">Round 3: Drag each strike pattern onto its number of bells.</p>
         <div className="ck10bm-bell-zones">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((n) => (
             <Droppable key={n} id={String(n)} className="ck10bm-bell-zone">
@@ -180,9 +180,7 @@ function PatternStage({ onComplete }) {
                 status={wrongId === p.id ? 'incorrect' : 'default'}
                 className="ck10bm-pattern-card"
               >
-                <span onPointerDown={() => playBellPattern(p.pattern)}>
-                  {renderDots(p.pattern)}
-                </span>
+                {renderDots(p.pattern)}
               </Card>
             </Draggable>
           ))}
