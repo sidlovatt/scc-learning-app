@@ -1,0 +1,131 @@
+.ck10am {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 30px 20px;
+  gap: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ck10am-menu-back {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.ck10am h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck10am-stage {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.ck10am-hint {
+  color: #6b7d87;
+  margin: 0;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.ck10am-progress {
+  color: #6b7d87;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ck10am-zones {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+  max-width: 1850px;
+  overflow: hidden;
+  align-content: start;
+}
+
+.ck10am-zone {
+  min-height: 90px;
+  background: #dfe9ef;
+  border: 2px dashed #003b5c;
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.ck10am-zone-label {
+  font-weight: 800;
+  color: #003b5c;
+  font-size: 0.9rem;
+}
+
+.ck10am-bell-zones {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+  max-width: 1850px;
+  overflow: hidden;
+  align-content: start;
+}
+
+.ck10am-bell-zone {
+  min-height: 90px;
+  background: #dfe9ef;
+  border: 2px dashed #003b5c;
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  overflow: hidden;
+}
+
+.ck10am-bell-zone-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+.ck10am-pool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 1850px;
+}
+
+.ck10am-pattern-card {
+  letter-spacing: 2px;
+  color: #003b5c;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.ck10am-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #003b5c;
+  font-weight: 700;
+}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Slideshow from '../shared/Slideshow.jsx';
 import CK10AClock from './CK10AClock.jsx';
-import CK10BMatch from './CK10BMatch.jsx';
+import CK10AMatch from './CK10AMatch.jsx';
 import './CK10A.css';
 
 const SLIDES = [
@@ -85,7 +85,7 @@ export default function CK10A({ registerBack }) {
   }
 
   if (activity === 'match') {
-    return <CK10BMatch onBack={() => setActivity(null)} />;
+    return <CK10AMatch onBack={() => setActivity(null)} />;
   }
 
   return (
