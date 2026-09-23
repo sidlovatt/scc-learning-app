@@ -1,0 +1,12 @@
+[
+  { "id": "t1", "label": "8:20 am", "value": "0820" },
+  { "id": "t2", "label": "10:30 pm", "value": "2230" },
+  { "id": "t3", "label": "1:15 am", "value": "0115" },
+  { "id": "t4", "label": "12 pm", "value": "1200" },
+  { "id": "t5", "label": "12 am", "value": "0000" },
+  { "id": "t6", "label": "1:45 pm", "value": "1345" },
+  { "id": "t7", "label": "6:55 am", "value": "0655" },
+  { "id": "t8", "label": "4:30 pm", "value": "1630" },
+  { "id": "t9", "label": "11:20 pm", "value": "2320" },
+  { "id": "t10", "label": "9:25 pm", "value": "2125" }
+]

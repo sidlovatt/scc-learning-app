@@ -1,0 +1,82 @@
+.ck10ac {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 30px 20px;
+  gap: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ck10ac-menu-back {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.ck10ac h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck10ac-hint {
+  color: #6b7d87;
+  margin: 0;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.ck10ac-zones {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  width: 100%;
+  max-width: 1850px;
+  overflow: hidden;
+  align-content: start;
+}
+
+.ck10ac-zone {
+  min-height: 90px;
+  background: #dfe9ef;
+  border: 2px dashed #003b5c;
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.ck10ac-zone-label {
+  font-weight: 800;
+  color: #003b5c;
+  font-size: 1.1rem;
+}
+
+.ck10ac-pool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 1850px;
+}
+
+.ck10ac-progress {
+  color: #6b7d87;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ck10ac-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #003b5c;
+  font-weight: 700;
+}
