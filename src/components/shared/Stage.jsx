@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useLayoutEffect, useRef, useState } from 'react';
 import { StageScaleContext } from './StageScaleContext.js';
 import './Stage.css';
 
@@ -9,7 +9,7 @@ export default function Stage({ children }) {
   const outerRef = useRef(null);
   const [scale, setScale] = useState(1);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     function updateScale() {
       const el = outerRef.current;
       if (!el) return;
