@@ -19,6 +19,7 @@ import CK10A from './CK10A.jsx';
 import CK10B from './CK10B.jsx';
 import CK12Army from './CK12Army.jsx';
 import CK12RAF from './CK12RAF.jsx';
+import CV02 from './CV02.jsx';
 
 // Map game code -> component. Filled in as each game is built.
 export const GAME_COMPONENTS = {
@@ -43,4 +44,5 @@ export const GAME_COMPONENTS = {
   CK10B,
   CK12Army,
   CK12RAF,
+  CV02,
 };

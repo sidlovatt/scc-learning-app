@@ -23,17 +23,22 @@ export default function Slideshow({ title, slides, jumps, onExit }) {
 
       <div className="slideshow-body">
         <h3 className="slideshow-slide-title">{slide.title}</h3>
-        <div className="slideshow-slide-content">
-          {slide.body.map((para, i) => (
-            <p key={i}>{para}</p>
-          ))}
-          {slide.list && (
-            <ul>
-              {slide.list.map((item, i) => (
-                <li key={i}>{item}</li>
-              ))}
-            </ul>
+        <div className={`slideshow-slide-content ${slide.image ? 'slideshow-slide-content--with-image' : ''}`}>
+          {slide.image && (
+            <img src={slide.image} alt="" className="slideshow-slide-image" />
           )}
+          <div className="slideshow-slide-text">
+            {slide.body.map((para, i) => (
+              <p key={i}>{para}</p>
+            ))}
+            {slide.list && (
+              <ul>
+                {slide.list.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            )}
+          </div>
         </div>
       </div>
 

@@ -9,6 +9,7 @@
   ],
   "CADET": [
     { "code": "CWB01", "name": "Stress Bucket Challenge", "icon": "🪣" },
+    { "code": "CV02", "name": "Self-Discipline and Honesty & Integrity", "icon": "🧭" },
     { "code": "CK02", "name": "Rank Order Challenge", "icon": "📊" },
     { "code": "CK03", "name": "Wheel of Duties", "icon": "🎯" },
     { "code": "CK04", "name": "Naval Terms Matching", "icon": "📖" },
