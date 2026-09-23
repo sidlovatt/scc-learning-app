@@ -28,7 +28,9 @@
     { "code": "CK12RAF", "name": "Who's Who - RAF Ranks", "icon": "🎖️" }
   ],
   "ORDINARY CADET": [],
-  "ABLE CADET": [],
+  "ABLE CADET": [
+    { "code": "CK18", "name": "Organisation of Sea Cadets at Area Level", "icon": "🗺️" }
+  ],
   "LEADING CADET": [],
   "PETTY OFFICER CADET": []
 }

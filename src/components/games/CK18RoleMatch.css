@@ -1,0 +1,92 @@
+.ck18rm {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 30px 20px;
+  gap: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ck18rm-menu-back {
+  position: absolute;
+  top: 0;
+  right: 30px;
+}
+
+.ck18rm h2 {
+  color: #003b5c;
+  margin: 0;
+}
+
+.ck18rm-hint {
+  color: #6b7d87;
+  margin: 0;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.ck18rm-progress {
+  color: #6b7d87;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ck18rm-zones {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  width: 100%;
+  max-width: 1850px;
+  overflow-y: auto;
+  align-content: start;
+}
+
+.ck18rm-zone {
+  min-height: 64px;
+  background: #dfe9ef;
+  border: 2px dashed #003b5c;
+  border-radius: 8px;
+  padding: 6px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.78rem;
+}
+
+.ck18rm-zone-label {
+  font-weight: 800;
+  color: #003b5c;
+}
+
+.ck18rm-zone .sc-card {
+  font-size: 0.7rem;
+  padding: 4px 6px;
+}
+
+.ck18rm-pool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  max-width: 1850px;
+}
+
+.ck18rm-pool .sc-card {
+  font-size: 0.75rem;
+  padding: 6px 10px;
+  max-width: 280px;
+}
+
+.ck18rm-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #003b5c;
+  font-weight: 700;
+}

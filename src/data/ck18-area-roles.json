@@ -1,0 +1,15 @@
+[
+  { "id": "area-officer", "role": "Area Officer", "description": "I am responsible to CSC for the safe and efficient conduct of all SCC activities within the Area." },
+  { "id": "training-manager", "role": "Training Manager", "description": "I deputise for the AO and monitor issue and custody of MoD boats, weapons, ammunition and training funds." },
+  { "id": "volunteer-business-support-manager", "role": "Volunteer and Business Support Manager", "description": "I'm responsible for providing business and management support directly to Unit Management Teams (UMT)." },
+  { "id": "volunteer-support-administrator", "role": "Volunteer Support Administrator", "description": "I process and record all the paperwork that comes through the Area." },
+  { "id": "regional-finance-manager", "role": "Regional Finance Manager", "description": "I provide financial advice and keep the Area's Account Books in good order." },
+  { "id": "training-safety-advisor", "role": "Training Safety Advisor", "description": "I am responsible for ensuring that units and equipment are safe for CFAVs, cadets and visitors to use." },
+  { "id": "area-training-officer", "role": "Area Training Officer", "description": "I encourage, support, develop and deliver all training in the Area through ASOs and external organisations." },
+  { "id": "senior-staff-officer", "role": "Senior Staff Officer", "description": "I am the most senior volunteer in the Area. I act in the interests of the CFAVs within the Area." },
+  { "id": "area-recreational-officer", "role": "Area Recreational Officer", "description": "I organise, encourage, support and safely deliver all competitions held in the Area." },
+  { "id": "development-worker", "role": "Development Worker", "description": "I assist units in the recruitment and retention of CFAVs and cadets." },
+  { "id": "area-chairman", "role": "Area Chairman", "description": "I represent Chairmen of the units in the Area, so their views and concerns are well represented." },
+  { "id": "executive-warrant-officer", "role": "Executive Warrant Officer", "description": "I am the Senior Staff Officer's (SSO) principal adviser and assistant on all Area matters concerning SR/NCO Volunteers." },
+  { "id": "company-commander", "role": "Company Commander", "description": "I ensure that SCC policies are applied in the Company to ensure RMC Detachments maintain high standards." }
+]

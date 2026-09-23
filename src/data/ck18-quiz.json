@@ -1,0 +1,26 @@
+[
+  {
+    "question": "How many areas is the Sea Cadet Corps split into?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "6",
+    "explanation": "The SCC is split into six areas: Northern, Eastern, North West, South West, London and Southern."
+  },
+  {
+    "question": "Which of these is one of the six Sea Cadet Areas?",
+    "options": ["Central", "Northern", "Highland", "Coastal"],
+    "answer": "Northern",
+    "explanation": "The six areas are Northern, Eastern, North West, South West, London and Southern."
+  },
+  {
+    "question": "Who run the Area Teams?",
+    "options": ["The Area Officers", "Unit Commanding Officers", "District Officers", "The Captain of Sea Cadets"],
+    "answer": "The Area Officers",
+    "explanation": "Each Area Team is run by its Area Officer, who is responsible to CSC for the safe and efficient conduct of all SCC activities within the Area."
+  },
+  {
+    "question": "Who is in charge of the Area Officers?",
+    "options": ["Area Chairman", "Senior Staff Officer", "Captain of Sea Cadets", "Chief Executive"],
+    "answer": "Captain of Sea Cadets",
+    "explanation": "The Captain of Sea Cadets is in charge of the Area Officers across all six areas."
+  }
+]
