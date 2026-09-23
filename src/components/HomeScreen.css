@@ -21,6 +21,7 @@
 
 .rank-tabs {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
   padding: 16px 40px;
@@ -71,6 +72,20 @@
 
 .game-card:active {
   transform: scale(0.97);
+}
+
+.game-grid-empty {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 40px 40px;
+}
+
+.game-grid-empty p {
+  color: #ffd200;
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .game-icon {

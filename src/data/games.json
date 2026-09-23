@@ -26,5 +26,9 @@
     { "code": "CK10B", "name": "Times, Watches, and Bells (B)", "icon": "🔔" },
     { "code": "CK12Army", "name": "Who's Who - British Army Ranks", "icon": "🎖️" },
     { "code": "CK12RAF", "name": "Who's Who - RAF Ranks", "icon": "🎖️" }
-  ]
+  ],
+  "ORDINARY CADET": [],
+  "ABLE CADET": [],
+  "LEADING CADET": [],
+  "PETTY OFFICER CADET": []
 }
