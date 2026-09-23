@@ -20,6 +20,7 @@
   ],
   "CADET FIRST CLASS": [
     { "code": "CK09A", "name": "Royal Navy History", "icon": "⚓" },
-    { "code": "CK09B", "name": "Royal Navy History Timeline", "icon": "📜" }
+    { "code": "CK09B", "name": "Royal Navy History Timeline", "icon": "📜" },
+    { "code": "CK10B", "name": "Times, Watches, and Bells", "icon": "🔔" }
   ]
 }

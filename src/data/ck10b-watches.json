@@ -1,0 +1,9 @@
+[
+  { "id": "w1", "range": "2000 - 0000", "name": "First" },
+  { "id": "w2", "range": "0000 - 0400", "name": "Middle" },
+  { "id": "w3", "range": "0400 - 0800", "name": "Morning" },
+  { "id": "w4", "range": "0800 - 1200", "name": "Forenoon" },
+  { "id": "w5", "range": "1200 - 1600", "name": "Afternoon" },
+  { "id": "w6", "range": "1600 - 1800", "name": "First Dog" },
+  { "id": "w7", "range": "1800 - 2000", "name": "Last Dog" }
+]

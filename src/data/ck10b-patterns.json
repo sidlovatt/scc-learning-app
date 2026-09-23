@@ -1,0 +1,10 @@
+[
+  { "id": "p1", "bells": 1, "pattern": [1] },
+  { "id": "p2", "bells": 2, "pattern": [2] },
+  { "id": "p3", "bells": 3, "pattern": [2, 1] },
+  { "id": "p4", "bells": 4, "pattern": [2, 2] },
+  { "id": "p5", "bells": 5, "pattern": [2, 2, 1] },
+  { "id": "p6", "bells": 6, "pattern": [2, 2, 2] },
+  { "id": "p7", "bells": 7, "pattern": [2, 2, 2, 1] },
+  { "id": "p8", "bells": 8, "pattern": [2, 2, 2, 2] }
+]
